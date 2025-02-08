@@ -1,3 +1,4 @@
+# Java Programming Nanodegree - Course 3 - Advanced Java Programming Techniques
 # Project: Parallel Web Crawler
 
 ![UdaciSearch Logo](UdaciSearch.png)
@@ -393,46 +394,3 @@ java -classpath target/udacity-webcrawler-1.0.jar \
 ```
 
 Try changing the starting pages in `src/main/config/sample_config.json` and see what different results you get!
-
-## Step 8. Project
-
-Please complete the **Project Quiz**. Your answers are not part of your project submission, so you _technically_ aren't required to complete this quiz, but you'll get more out of the project and the course if you do!
-                  
-## Built With
-
-Hooray! You're all done writing code for this course!
-
-Before continuing to the next section, take a brief moment to appreciate all the third-party Java libraries you used. Each of these projects represents many, many hours spent by other  developers to create useful software that you were able to utilize to build your web crawler.
-
-* [jsoup](https://jsoup.org/) - An open-source Java library for working with HTML.
-  * License: [MIT License](https://jsoup.org/license)
-* [Jackson Project](https://github.com/FasterXML/jackson) - Affectionately known as "the best JSON parser for Java".
-  * License: [Apache 2.0](https://github.com/FasterXML/jackson-core/blob/master/src/main/resources/META-INF/LICENSE)
-* [Guice](https://github.com/google/guice/) - An open-source dependency injection framework for Java.
-  * License: [Apache 2.0](https://github.com/google/guice/blob/master/COPYING)
-* [Maven](https://maven.apache.org/) - Used to build and manage the project dependencies.
-  * License: [Apache 2.0 ](http://maven.apache.org/ref/3.0/license.html)
-* [JUnit 5](https://junit.org/junit5/) - An open-source unit testing framework for Java.
-  * License: [Eclipse Public License 2.0](https://github.com/junit-team/junit5/blob/main/LICENSE.md)
-* [Truth](https://github.com/google/truth) - An open-source assertion framework used in Java unit tests.
-  * License: [Apache 2.0](https://github.com/google/truth/blob/master/LICENSE)
-
-## Project Submission
-
-For your submission, please submit the following:
-- Completed project code should be uploaded either to GitHub or a .zip file. The following Java files should be filled in with all TODOs addressed:
- - `src/main/java/com/udacity/webcrawler/json/ConfigurationLoader.java`
- - `src/main/java/com/udacity/webcrawler/json/CrawlResultWriter.java`
- - `src/main/java/com/udacity/webcrawler/ParallelWebCrawler.java`
-   - You should define and include your own helper classes in `src/main/java/com/udacity/webcrawler/`, as you see fit.
- - `src/main/java/com/udacity/webcrawler/WordCounts.java`
- - `src/main/java/com/udacity/webcrawler/profiler/ProfilerImpl.java`
- - `src/main/java/com/udacity/webcrawler/profiler/ProfilingMethodInterceptor.java`
- - `src/main/java/com/udacity/webcrawler/main/WebCrawlerMain.java`
-
-## Double-Check the Rubric
-Make sure you have completed all the rubric items [here](https://review.udacity.com/#!/rubrics/2927/view).
-
-## Submit your Project
-
-You can submit your project by uploading a zip file or selecting your GitHub repo on the Udacity website.
