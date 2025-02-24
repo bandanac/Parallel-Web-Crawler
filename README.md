@@ -1,4 +1,4 @@
-# Project: Parallel Web Crawler
+# Parallel Web Crawler
 ## Java Programming Nanodegree - Course 3 - Advanced Java Programming Techniques
 
 ![UdaciSearch Logo](UdaciSearch.png)
